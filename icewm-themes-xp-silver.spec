@@ -32,7 +32,10 @@ okien wygl±daj± i zachowuj± siê jak te w Windowsie XP.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_themesdir}/silverxp
 
-cp -R * $RPM_BUILD_ROOT%{_themesdir}/silverxp
+cp -R themes/SilverXP-%{version}-double-%{_verrel}/*.xpm $RPM_BUILD_ROOT%{_themesdir}/silverxp
+cp -R themes/SilverXP-%{version}-double-%{_verrel}/*.theme $RPM_BUILD_ROOT%{_themesdir}/silverxp
+cp -R themes/SilverXP-%{version}-double-%{_verrel}/icons $RPM_BUILD_ROOT%{_themesdir}/silverxp
+cp -R themes/SilverXP-%{version}-double-%{_verrel}/taskbar $RPM_BUILD_ROOT%{_themesdir}/silverxp
 
 %clean
 rm -rf $RPM_BUILD_ROOT
