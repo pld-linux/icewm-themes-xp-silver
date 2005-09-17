@@ -1,13 +1,13 @@
 Summary:	SilverXP theme for IceWM
 Summary(pl):	Motyw SilverXP dla IceWM-a
 Name:		icewm-themes-xp-silver
-Version:	1.2.13
-%define	_verrel 2
+Version:	1.2.17
+%define	_verrel 1
 Release:	1
 License:	GPL (?)
 Group:		Themes
-Source0:	http://dl.sourceforge.net/icewmsilverxp/SilverXP-%{version}-%{_verrel}.tar.bz2
-# Source0-md5:	e24dcd9a8bd4dad27b500d06b0c3a544
+Source0:	http://dl.sourceforge.net/icewmsilverxp/SilverXP-%{version}-double-%{_verrel}.tar.bz2
+# Source0-md5:	b3dece94b234145093b766d7eaa38776
 Requires:	icewm
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,7 @@ systemu Microsoft Windows XP. Paski tytu³owe, kolory i obramowania
 okien wygl±daj± i zachowuj± siê jak te w Windowsie XP.
 
 %prep
-%setup -q -n SilverXP-%{version}-%{_verrel}
+%setup -q -n icewm
 
 %install
 rm -rf $RPM_BUILD_ROOT
