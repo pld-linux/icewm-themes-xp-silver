@@ -1,5 +1,5 @@
 Summary:	SilverXP theme for IceWM
-Summary(pl):	Motyw SilverXP dla IceWM-a
+Summary(pl.UTF-8):   Motyw SilverXP dla IceWM-a
 Name:		icewm-themes-xp-silver
 Version:	1.2.17
 %define	_verrel 1
@@ -20,10 +20,10 @@ Silver Theme. The title bars and window borders have the look of
 Windows XP. The colors of all elements are very similar to the colors
 of the Windows XP interface.
 
-%description -l pl
-Motyw SilverXP dla IceWM-a zosta³ zainspirowany motywem XP Silver dla
-systemu Microsoft Windows XP. Paski tytu³owe, kolory i obramowania
-okien wygl±daj± i zachowuj± siê jak te w Windowsie XP.
+%description -l pl.UTF-8
+Motyw SilverXP dla IceWM-a zostaÅ‚ zainspirowany motywem XP Silver dla
+systemu Microsoft Windows XP. Paski tytuÅ‚owe, kolory i obramowania
+okien wyglÄ…dajÄ… i zachowujÄ… siÄ™ jak te w Windowsie XP.
 
 %prep
 %setup -q -n icewm
