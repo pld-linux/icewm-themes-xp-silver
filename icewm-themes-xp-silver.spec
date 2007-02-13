@@ -1,5 +1,5 @@
 Summary:	SilverXP theme for IceWM
-Summary(pl.UTF-8):   Motyw SilverXP dla IceWM-a
+Summary(pl.UTF-8):	Motyw SilverXP dla IceWM-a
 Name:		icewm-themes-xp-silver
 Version:	1.2.17
 %define	_verrel 1
