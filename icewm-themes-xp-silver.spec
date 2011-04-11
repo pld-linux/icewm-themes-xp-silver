@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Motyw SilverXP dla IceWM-a
 Name:		icewm-themes-xp-silver
 Version:	1.2.17
 %define	_verrel 1
-Release:	1
+Release:	2
 License:	GPL (?)
 Group:		Themes
 Source0:	http://dl.sourceforge.net/icewmsilverxp/SilverXP-%{version}-double-%{_verrel}.tar.bz2
